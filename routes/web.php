@@ -19,11 +19,6 @@ Route::middleware(['auth','role:pasante'])->group(function(){
       return view('pasante.dashboard');
    })->name('pasante.dashboard');
 });
-Route::middleware(['auth','role:aprendiz'])->group(function(){
-    Route::get('/aprendiz', function() {
-      return view('aprendiz.dashboard');
-   })->name('aprendiz.dashboard');
-});
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

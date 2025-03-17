@@ -22,9 +22,7 @@ class RedirectIfAuthenticatewhithRole
                 case 'admin':
                     return redirect()->route('admin.dashboard');  
                case 'pasante':
-                    return redirect()->route('pasante.dashboard');   
-               case 'aprendiz':
-                    return redirect()->route('aprendiz.dashboard');
+                    return redirect()->route('pasante.dashboard'); 
             }
         }
         return $next($request);
