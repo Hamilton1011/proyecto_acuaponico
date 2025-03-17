@@ -59,7 +59,6 @@
                     data-accordion="false">
                     <br><br><br><br>
 
-                    <!-- visualizacion de actividades -->
                     <li class="nav-item has-treeview">
                         <a href="#" class="nav-link text-success">
                             <i class="fas fa-tasks"></i> &nbsp;
@@ -72,6 +71,48 @@
                             <li class="nav-item">
                                 <i class="nav-icon fas fa-eye"></i>
                                 <p>Visualización</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link text-success">
+                            <i class="fas fa-seedling"></i> &nbsp;
+                            <p>
+                                Generar Lotes
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <i class="nav-icon fas fa-clipboard-list"></i>
+                                <p>Registro de lotes</p>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <i class="nav-icon fas fa-list"></i>
+                                <p>Lista de lotes</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-treeview">
+                        <a href="#" class="nav-link text-success">
+                            <i class="fas fa-seedling"></i> &nbsp;
+                            <p>
+                                Generar Cultivos
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <i class="nav-icon fas fa-clipboard-list"></i>
+                                <p>Registro de cultivos</p>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <i class="nav-icon fas fa-list"></i>
+                                <p>Lista de cultivos</p>
                             </li>
                         </ul>
                     </li>
